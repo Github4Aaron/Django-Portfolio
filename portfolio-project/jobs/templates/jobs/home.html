@@ -1,1 +1,11 @@
-Hello From Aaron
+<h1>All My Jobs</h1>
+
+{% for job in jobs.all %}
+
+{{ job.summary }}
+
+{%  endfor   %}
+
+
+
+<!-- https://docs.djangoproject.com/en/1.7/topics/templates/-->
