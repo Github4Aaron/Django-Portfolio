@@ -1,12 +1,12 @@
 from django.db import models
 
-# Create your models here.
-
 class Job(models.Model):
   
   image = models.ImageField(upload_to='images/')
   summary = models.CharField(max_length=200)
 
-  # Migrations will create a table with rows and columns
-  #  This should be done whenever a new model is made or changes to a model
-  # python3 manage.py makemigrations
+# Should return string in /admin console
+  #def __str__(self):
+       #return str(self.summary)
+  
+#https://stackoverflow.com/questions/11871221/python-typeerror-str-returned-non-string-but-still-prints-to-output
