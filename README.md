@@ -8,7 +8,7 @@ This project was based upon the Lynda.com tutorial "Building a Personal Portfoli
 
 ## Getting Started
 
-1. Clone the repository,
+1. Clone the repository.
 ```shell
 git clone git@github.com:Github4Aaron/django-personal-porfolio.git
 ```
@@ -16,7 +16,7 @@ git clone git@github.com:Github4Aaron/django-personal-porfolio.git
 ```shell
 cd path/to/project
 ```
-3. Run the Django. 
+3. Run the Django server. 
 ```shell
 python3 manage.py runserver
 ```
